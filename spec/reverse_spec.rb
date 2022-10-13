@@ -8,7 +8,7 @@ describe Solver do
       expect(message).to eq 'olleh'
     end
 
-    it 'Should return '' when no inut is given' do
+    it 'Should return empty output when no inut is given' do
       reverse = Solver.new
       message = reverse.reverse('')
       expect(message).to eq ''
